@@ -1,3 +1,4 @@
+import colorzero
 from gpiozero import LED, Button
 from signal import pause
 
@@ -8,3 +9,4 @@ button.when_pressed = led.on
 button.when_released = led.off
 
 pause()
+
